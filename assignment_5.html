@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assignment.css">
+    <title>About</title>
+    <div class="container">
+      <div class="nav-bar">
+        <a href="#home">Home</a>
+        <a href="about.html">About</a>
+        <a href="assignment4.html">ContactUs</a>
+        <a href="products.html">Products</a>
+      </div>
+    </div>
+  </head>
+  <body>
+
+    <h3>About this Website</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+  </body>
+</html>
+ 15  assignment.css 
+@@ -0,0 +1,15 @@
+*{
+  margin: 4;
+  padding: 5;
+
+}
+html{
+  background-color: rgb(108, 190, 204);
+  text-align: left;
+}
+a{
+  text-decoration: none;
+}
+.nav-bar{
+  text-align: right;
+}
+ 66  assignment4.html 
+@@ -0,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Contact us Form</title>
+
+
+		<style media="screen">
+		*{
+			margin: 4;
+			padding: 5;
+
+		}
+
+
+		}
+		img{
+			cursor: pointer;
+		}
+		html{
+			background-color: rgba(165, 219, 230, 0.15);
+			text-align: left;
+		}
+		input{
+			font-style: italic;
+			font-family: monospace;
+			background-color: rgb(147, 190, 235);
+			border-radius: 40px;
+		}
+		textarea{
+			border-radius: 15px;
+		}
+		button{
+			border-radius: 20px;
+			background-color: rgb(22, 227, 188);
+			font-style: italic;
+			cursor: pointer;
+		}
+
+		h3{
+			color: rgb(189, 115, 176);
+		}
+		</style>
+		<link rel="stylesheet" href="assignment.css">
+		<div class="container">
+			<div class="nav-bar">
+				<a href="#home">Home</a>
+				<a href="about.html">About</a>
+				<a href="assignment4.html">ContactUs</a>
+				<a href="products.html">Products</a>
+			</div>
+		</div>
+	</head>
+	<body>
+
+		<h3>Contact Us</h3>
+		<form id="Conatctusform" method="get">
+			<input type="text" name="First Name" value="" placeholder="FirstName"><br><br>
+			<input type="text" name="Last Name" value="" placeholder="LastName"><br><br>
+			<input type="number" name="MobileNumber" value="" placeholder="Mobile number"><br><br>
+			<textarea name="Send a Message" rows="4" cols="40" placeholder="Write a message"></textarea><br>
+			<button type="submit" name="button">Submit</button>
+
+		</form>
+		</body>
+</html>

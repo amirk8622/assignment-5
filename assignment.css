@@ -1,0 +1,15 @@
+*{
+  margin: 4;
+  padding: 5;
+
+}
+html{
+  background-color: rgb(108, 190, 204);
+  text-align: left;
+}
+a{
+  text-decoration: none;
+}
+.nav-bar{
+  text-align: right;
+}
